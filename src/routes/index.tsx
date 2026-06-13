@@ -288,7 +288,7 @@ function Index() {
   };
 
   const onXPost = () => {
-    const text = `I just minted my Siggy Tail on Ritual chain! 🐱 siggy-tails-nft.lovable.app`;
+    const text = `I just minted my Siggy Tail on Ritual chain! 🐱 siggy-tail.vercel.app`;
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank", "noopener");
   };

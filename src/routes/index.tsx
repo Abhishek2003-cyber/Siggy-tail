@@ -299,9 +299,7 @@ function Index() {
       <div className="relative z-10">
         <header className="mx-auto flex max-w-6xl items-center justify-between px-6 pt-6">
           <div className="flex items-center gap-3">
-            <div className="grid h-8 w-8 place-items-center rounded-full border border-primary/60">
-              <span className="block h-2 w-2 rounded-full bg-primary" />
-            </div>
+            <img src="/logo.png" alt="Siggy Tails Logo" className="h-8 w-8 object-contain" />
             <div className="leading-tight">
               <div className="text-xs tracking-[0.3em]">SIGGY//TAILS</div>
               <div className="text-[9px] tracking-[0.3em] text-muted-foreground">
